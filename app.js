@@ -13,4 +13,5 @@ server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-//
+// Triggering CodePipeline deployment
+console.log("Deployment test...");
